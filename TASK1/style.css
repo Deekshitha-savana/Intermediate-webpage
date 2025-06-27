@@ -1,0 +1,42 @@
+/* Change background and text styles */
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Heading style */
+h1 {
+  color: #2e8b57;
+  font-size: 36px;
+}
+
+/* Paragraph style */
+p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Image style */
+img {
+  margin-top: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Button style */
+button {
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #005f5f;
+}

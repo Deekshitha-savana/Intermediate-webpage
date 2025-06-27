@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 2 Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Intermediate HTML, CSS & JS</h1>
+    <p>Form | Responsive Layout | To-Do List</p>
+  </header>
+
+  <div class="container">
+    <!-- Contact Form -->
+    <div class="card">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- To-Do List -->
+    <div class="card">
+      <h2>To-Do List</h2>
+      <input type="text" id="taskInput" placeholder="Enter a task">
+      <button onclick="addTask()">Add Task</button>
+      <div id="tasks"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
